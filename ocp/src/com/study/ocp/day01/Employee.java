@@ -7,6 +7,6 @@ public class Employee {
 	Date birth;
 	int salary;
 	void job() {
-		System.out.println("歡喜工作");
+		System.out.println("歡喜工作!");
 	}
 }
