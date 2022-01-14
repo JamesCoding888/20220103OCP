@@ -20,9 +20,12 @@ public class MultiArrayDemo3 {
 		System.out.println(total);
 		// java 8 求總分 = ?
 		int example = Arrays.stream(scores)
-			     .flatMapToInt(n1 -> Arrays.stream(n1)  						   // 將 3 維陣列 轉成 2 維陣列
-			    		 	               .flatMapToInt(n2 -> Arrays.stream(n2))) // 將 2 維陣列 轉成 1 維陣列
-			     .sum(); 														   // 最後將 1 維陣列相加
+				  // 將 3 維陣列 轉成 2 維陣列
+			     .flatMapToInt(n1 -> Arrays.stream(n1)  						   
+			      // 將 2 維陣列 轉成 1 維陣列
+			     .flatMapToInt(n2 -> Arrays.stream(n2))) 
+			      // 最後將 1 維陣列相加
+			     .sum(); 														   
 		System.out.println(example);			     	
 	}
 }
