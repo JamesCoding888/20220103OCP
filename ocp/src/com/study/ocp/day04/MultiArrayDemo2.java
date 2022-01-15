@@ -40,6 +40,7 @@ public class MultiArrayDemo2 {
 						     .flatMapToInt(n -> Arrays.stream(n))
 						     .sum();
 		System.out.printf("總分: %d\n", example5);
+		
 	}
 
 }
