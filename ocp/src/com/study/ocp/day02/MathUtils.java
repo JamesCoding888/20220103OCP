@@ -1,6 +1,4 @@
 package com.study.ocp.day02;
-
-
 public class MathUtils {
 	// 計算總和
 	public static int getSum(int[] nums) {
