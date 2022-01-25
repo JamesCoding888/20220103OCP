@@ -19,10 +19,10 @@ public class CheckId {
 		}
 		System.out.println(Arrays.toString(nums));
 		switch(id.charAt(0)) {
-			case 'A':
+			case 'A': // 台北市
 				nums[0] = 1; nums[1] = 0;
 				break;
-			case 'F':
+			case 'F': // 新北市
 				nums[0] = 1; nums[1] = 5;
 				break;				
 		}

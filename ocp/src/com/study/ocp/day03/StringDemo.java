@@ -15,6 +15,6 @@ public class StringDemo {
 		// 有幾個字 ? 提示: split()
 		String[] wordarray = words.split(" ");
 		System.out.println(Arrays.toString(wordarray));
-		System.out.println(wordarray.length);
+		System.out.println(wordarray.length);		
 	}
 }

@@ -9,10 +9,10 @@ public class GenerateId {
 			nums[i+1] = id.charAt(i) - 48;
 		}
 		switch (id.charAt(0)) {
-			case 'A':
+			case 'A': // 台北市
 				nums[0] = 1;nums[1] = 0;
 				break;
-			case 'F':
+			case 'F': // 新北市
 				nums[0] = 1;nums[1] = 5;
 				break;	
 		}
@@ -23,7 +23,7 @@ public class GenerateId {
 		for(int i=0;i<nums.length;i++) {
 			sum += nums[i] * m[i];
 		}
-		return sum % 10 == 0;
+		return sum % 10 == 0; // 整除餘 0 表示身分證號碼正確
 	}	
 	public static void main(String[] args) {
 		Random r = new Random();
