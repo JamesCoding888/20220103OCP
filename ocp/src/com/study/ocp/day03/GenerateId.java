@@ -1,8 +1,8 @@
 /********************************************
- * 此程式不可用於任何非法行為，否則後果自行負責!!!
+ * 此程式不可用於任何非法行為，否則後果自行負責!!! 
 *********************************************/
 package com.study.ocp.day03;
-import java.util.Random;
+import java.util.Random; 
 import java.util.Scanner;
 // 身分證字號產生器
 public class GenerateId {
