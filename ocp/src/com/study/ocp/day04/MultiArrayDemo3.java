@@ -8,15 +8,25 @@ public class MultiArrayDemo3 {
 				{{10, 5}}
 		};
 		// 求總分 = ?
-		int total =0;
-		for(int[][] s_outter1 : scores) {
-			for(int[] s_outter2 : s_outter1) {
-				for(int s_inner : s_outter2) {
-					total += s_inner;					
+		int total_1 = 0;
+		for (int i = 0; i < scores.length; i++) {
+			for (int j = 0; j < scores[i].length; j++) {
+				for (int k = 0; k < scores[i][j].length; k++) {
+					total_1 += scores[i][j][k];
 				}
 			}
 		}
-		System.out.println(total);
+		System.out.println(total_1);	
+		// 求總分 = ?
+		int total_2 = 0;
+		for(int[][] s_outter1 : scores) {
+			for(int[] s_outter2 : s_outter1) {
+				for(int s_inner : s_outter2) {
+					total_2 += s_inner;					
+				}
+			}
+		}
+		System.out.println(total_2);
 		// java 8 求總分 = ?
 		int example1 = Arrays.stream(scores)
 				  // 將 3 維陣列 轉成 2 維陣列
@@ -35,10 +45,5 @@ public class MultiArrayDemo3 {
 			      // 最後將 1 維陣列相加
 			     .sum(); 														   
 		System.out.println(example2);
-		// java 8 求總分 = ?
-		int example3 = Arrays.stream(scores)
-				.flatMapToInt(n1 -> Arrays.stream(n1).flatMapToInt(n2 -> Arrays.stream(n2)))
-				.sum();
-		System.out.println(example3);
 	}
 }
