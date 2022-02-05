@@ -14,7 +14,7 @@ public class ArrayStreamDemo4 {
 		double avg = Arrays.stream(names)
 							//.sequential() // 序列
 							.parallel() // 平行
-							.mapToInt(n -> n.length())
+							.mapToInt(n -> n.length()) // mapToInt((String n) -> n.length())
 							.peek(System.out::println) // 觀察串流的元素資料
 							.average()
 							.getAsDouble();
