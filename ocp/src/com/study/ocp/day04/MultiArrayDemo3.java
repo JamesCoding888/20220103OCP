@@ -1,7 +1,6 @@
 package com.study.ocp.day04;
 import java.util.Arrays;
 public class MultiArrayDemo3 {
-
 	public static void main(String[] args) {
 		int[][][] scores = {
 				{{100, 90, 80}, {70, 60}, {50}},
@@ -36,5 +35,10 @@ public class MultiArrayDemo3 {
 			      // 最後將 1 維陣列相加
 			     .sum(); 														   
 		System.out.println(example2);
+		// java 8 求總分 = ?
+		int example3 = Arrays.stream(scores)
+				.flatMapToInt(n1 -> Arrays.stream(n1).flatMapToInt(n2 -> Arrays.stream(n2)))
+				.sum();
+		System.out.println(example3);
 	}
 }
