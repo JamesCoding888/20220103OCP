@@ -37,7 +37,7 @@ public class MultiArrayDemo2 {
 		System.out.printf("總分: %d\n", example4);
 		// 5. 求總分 = ?
 		int example5 = Arrays.stream(scores)
-						     .flatMapToInt(n -> Arrays.stream(n))
+						     .flatMapToInt(n -> Arrays.stream(n)) //flatMapToInt((int[] n) -> Arrays.stream(n))
 						     .sum();
 		System.out.printf("總分: %d\n", example5);
 		

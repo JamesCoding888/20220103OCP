@@ -21,7 +21,7 @@ public class MultiArrayDemo3 {
 		// java 8 求總分 = ?
 		int example1 = Arrays.stream(scores)
 				  // 將 3 維陣列 轉成 2 維陣列
-			     .flatMapToInt(n1 -> Arrays.stream(n1)  						   
+			     .flatMapToInt(n1 -> Arrays.stream(n1) //flatMapToInt((int[][] n1) -> Arrays.stream(n1)  						   
 			      // 將 2 維陣列 轉成 1 維陣列
 			     .flatMapToInt(n2 -> Arrays.stream(n2))) 
 			      // 最後將 1 維陣列相加
