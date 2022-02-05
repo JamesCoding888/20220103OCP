@@ -1,15 +1,16 @@
 package com.study.ocp.day05;
-
 public class WrapperClassDemo {
-
 	public static void main(String[] args) {
 		// 取最大值
 		int max = Integer.MAX_VALUE;
 		System.out.printf("int 的最大值: %,d\n", max);
+		int min = Integer.MIN_VALUE;
+		System.out.printf("int 的最小值: %,d\n", min);
 		// 數值比較
 		int a = 10;
 		int b = 20;
 		System.out.printf("a: %d, b: %d 最大的是: %d\n", a, b, Integer.max(a, b));
+		System.out.printf("a: %d, b: %d 最小的是: %d\n", a, b, Integer.min(a, b));
 		// 資料轉換 String 轉數字
 		String s1 = "100";
 		String s2 = "200";
