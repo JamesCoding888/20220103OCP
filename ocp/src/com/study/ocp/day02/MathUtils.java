@@ -14,7 +14,7 @@ public class MathUtils {
 			sum += nums[i];
 		}
 		return sum;
-	}
+	} 
 	// 計算平均
 	public static double getAvg(int[] nums) {
 		int sum = getSum(nums);

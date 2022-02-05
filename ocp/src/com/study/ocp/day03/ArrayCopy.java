@@ -18,4 +18,4 @@ public class ArrayCopy {
 		int[] num5 = num1.clone();
 		System.out.println(Arrays.toString(num5));
 	}
-}
+} 

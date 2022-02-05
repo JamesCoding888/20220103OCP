@@ -17,7 +17,7 @@ public class CheckId {
 //		System.out.println(x - 48);
 		for(int i=0; i<id.length(); i++) {
 			nums[i+1] = id.charAt(i) - 48;			
-		}
+		} 
 		System.out.println(Arrays.toString(nums));
 		switch (id.charAt(0)) {
 			case 'A': // 台北市
