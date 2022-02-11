@@ -1,5 +1,4 @@
 package com.study.ocp.day06;
-
 public class Teacher extends Person {
 	private Integer salary;
 	

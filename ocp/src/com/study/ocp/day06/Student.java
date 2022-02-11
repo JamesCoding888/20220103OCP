@@ -1,12 +1,9 @@
 package com.study.ocp.day06;
-
 public class Student extends Person{
-	private Integer score;
+	private Integer score;	
+	public Student() {		
 	
-	public Student() {
-		
-	}
-	
+	}	
 	public Student(String name, Integer age, Integer score) {
 		super.setName(name);
 		super.setAge(age);

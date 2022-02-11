@@ -1,7 +1,8 @@
 package com.study.ocp.day05; 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 public class EmployeeTest2 {
 	public static void main(String[] args) {
 		// 建立員工物件
@@ -33,7 +34,11 @@ public class EmployeeTest2 {
 		System.out.printf("總薪資: %d\n", sum5);
 		
 		// Homework employees 可以依照薪資大小排序
-		Arrays.stream(employees).mapToInt(emp -> emp.getSalary()).sorted().forEach(System.out::println);	
+		System.out.println("第一種方式: ");
+		Arrays.stream(employees).mapToInt(emp -> emp.getSalary()).sorted().forEach(n -> System.out.printf("%d\t", n));		
+		System.out.println();
+		System.out.println("第二種方式: ");
+		Stream.of(employees).mapToInt(emp -> emp.getSalary()).sorted().forEach(n -> System.out.printf("%d\t", n));
 	}
 }
 

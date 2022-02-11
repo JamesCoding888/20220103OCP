@@ -1,8 +1,6 @@
 package com.study.ocp.day06;
-
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.function.Predicate;
-
 public class PersonTest3 {
 
 	public static void main(String[] args) {
