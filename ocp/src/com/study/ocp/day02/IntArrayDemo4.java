@@ -20,5 +20,5 @@ public class IntArrayDemo4 {
 		
 		System.out.printf("股票變異係數: %.2f\n", stock_cv);
 		System.out.printf("債券變異係數: %.2f\n", bond_cv);
-	}	
+	}
 }
