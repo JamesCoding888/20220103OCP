@@ -1,5 +1,5 @@
 package com.study.ocp.day12;
-import java.util.Arrays;
+import java.util.Arrays; 
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
@@ -44,6 +44,8 @@ public class MapDemo4 {
 		System.out.println(result5);
 					
 		// 水果加總
+		// {orange=800, papaya=225, banana=525, apple=450, melon=800}
+		// 2800
 		Map<String, Integer> result6 = fruits.stream()
 				.collect(Collectors.groupingBy(Fruit::getName, Collectors.summingInt(fruit -> fruit.getPrice() * fruit.getQty())));
 		System.out.println(result6);
