@@ -1,5 +1,5 @@
 package com.study.ocp.day12;
-import static java.util.stream.Collectors.groupingBy; 
+import static java.util.stream.Collectors.groupingBy;  
 import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.summarizingInt;
 import static java.util.stream.Collectors.toSet;
