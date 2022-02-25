@@ -24,7 +24,8 @@ public class EmployeeExam {
 				.collect(Collectors.groupingBy(Employee::getNeighborhood, 
 											   Collectors.maxBy(Comparator.comparing(Employee::getSalary))));
 		System.out.println(map);
-		
+		System.out.println(Runtime.getRuntime().freeMemory());
 		System.out.println(map.get("A").get());
+		System.out.println(Runtime.getRuntime().freeMemory());
 	}
 }
