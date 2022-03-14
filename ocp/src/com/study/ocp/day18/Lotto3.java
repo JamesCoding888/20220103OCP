@@ -1,8 +1,10 @@
 package com.study.ocp.day18;
+import java.util.Date;
 import java.util.Random;
-public class Lotto implements Runnable{
+public class Lotto3 implements Runnable{
 	@Override
 	public void run() {
+		System.out.printf("start:%s ", new Date());
 		Random random = new Random();
 		try {
 			Thread.sleep(random.nextInt(5000));	
@@ -11,6 +13,6 @@ public class Lotto implements Runnable{
 		}
 		int n = random.nextInt(100);
 		String tName = Thread.currentThread().getName();
-		System.out.printf("%s -> %d\n", tName, n);		
+		System.out.printf("end:%s thead:%s -> %d\n", new Date(), tName, n);		
 	}	
 }
