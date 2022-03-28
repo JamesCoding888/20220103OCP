@@ -65,7 +65,7 @@
 - Sequential  / Parallel / Finonacci / Arrays.parallelSort / ForkJoinPool.commonPool( ).getPoolSize( ) / ReentrantLock / NIO /  mkdir / mkdirs / File.createTempFile / basePath.list( ) / fullPath.isFile( ) / 
 
 20220325
-- FileReader / FileWriter / try(FileReader…)-catch: auto-close / FileWriter(filePath, false/true) / InputStream / FileOutputStream /AutoCloseable / BufferedReader / Serializable / ObjectOutputStream / transient (i.e., wo/ serializable / 
+- FileReader / FileWriter / try(FileReader…)-catch: auto-close / FileWriter(filePath, false/true) / InputStream / FileOutputStream /AutoCloseable / BufferedReader / Serializable / ObjectOutputStream / transient (i.e., wo/ serializable) 
 
 
 
