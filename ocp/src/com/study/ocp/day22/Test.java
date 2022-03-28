@@ -16,7 +16,7 @@ public class Test {
 			}
 		};
 		foo.eat();
-		((Test$1)foo_1).play(); // JRE 1.5 可以執行，但之後就不行了
+//		((Test$1)foo_1).play(); // JRE 1.5 可以執行，但之後就不行了
 		
 	}
 	

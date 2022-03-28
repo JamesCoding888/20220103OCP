@@ -1,6 +1,7 @@
 package com.study.ocp.day06;
 
 public class UserTest {
+
 	public static void main(String[] args) {
 		User user = new User();
 		user.setName("Vincent");
