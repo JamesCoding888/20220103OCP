@@ -38,34 +38,90 @@
 - LinkedList / Queue / Stack
 
 20220221
-- map.putIfAbsent / Map.Entry / new LinkedHashMap<>().entrySet() / collect(Collectors.joining() / collect(Collectos.toMap()) / collect(groupingBy()) / collect(Collectors.groupingBy(… ,Collectors.counting())) / collect(Collectors.groupingBy(… , Collectors.summingInt())) / / collect(Collectors.groupingBy(… , Collectors.sumarizingInt())) / collect(Collectors.groupingBy(… , Collectors.mapping(… , Collectors.toSet()))) / Map.Entry.comparingByKey() / Map.Entry.comparingByValue() / Map.Entry.comparingByValue(Comparator.reverseOrder())
+- map.putIfAbsent
+- Map.Entry
+- new LinkedHashMap<>().entrySet()
+- collect(Collectors.joining()
+- collect(Collectos.toMap())
+- collect(groupingBy())
+- collect(Collectors.groupingBy(… ,Collectors.counting()))
+- collect(Collectors.groupingBy(… , Collectors.summingInt()))
+- collect(Collectors.groupingBy(… , Collectors.sumarizingInt()))
+- collect(Collectors.groupingBy(… , Collectors.mapping(… , Collectors.toSet())))
+- Map.Entry.comparingByKey()
+- Map.Entry.comparingByValue()
+- Map.Entry.comparingByValue(Comparator.reverseOrder())
 
 20220225
-- Collectors.maxBy / Throwable / Exception / Error
+- Collectors.maxBy
+- Throwable
+- Exception
+- Error
 
 20220228
-- try-catch - finally / jUnit Test
+- try-catch - finally
+- jUnit Test
 
 20220304
-- Garbage Collection / Reassigning Garbage / Thread / Runnable
+- Garbage Collection
+- Reassigning Garbage
+- Thread
+- Runnable
 
 20220307
-- Thread / join / sleep / Thread-Safe / Synchronized for StringBuffer  v.s. StringBuilder 
+- Thread
+- join
+- sleep
+- Thread-Safe
+- Synchronized for StringBuffer  v.s. StringBuilder 
 
 20220311
-- Synchronized / CopyOnWriteArrayList /  wait( ) / notify( ) / CyclicBarrier 
+- Synchronized
+- CopyOnWriteArrayList
+- wait( )
+- notify( )
+- CyclicBarrier 
 
 20220314
-- Executor / ThreadPoolExecutor / Executors.newCachedThreadPool / Executors.newFixedThreadPool / shutdown  / shutdownNow
+- Executor
+- ThreadPoolExecutor
+- Executors.newCachedThreadPool
+- Executors.newFixedThreadPool 
+- shutdown  
+- shutdownNow
 
 20220318
-- invokeAll / invokeAny / Recursive / ForkJoin
+- invokeAll 
+- invokeAny  
+- Recursive 
+- ForkJoin
 
 20220321
-- Sequential  / Parallel / Finonacci / Arrays.parallelSort / ForkJoinPool.commonPool( ).getPoolSize( ) / ReentrantLock / NIO /  mkdir / mkdirs / File.createTempFile / basePath.list( ) / fullPath.isFile( ) / 
+- Sequential 
+- Parallel
+- Finonacci
+- Arrays.parallelSort
+- ForkJoinPool.commonPool( ).getPoolSize( )
+- ReentrantLock 
+- NIO  
+- mkdir 
+- mkdirs
+- File.createTempFile  
+- basePath.list( ) 
+- fullPath.isFile( )  
 
 20220325
-- FileReader / FileWriter / try(FileReader…)-catch: auto-close / FileWriter(filePath, false/true) / InputStream / FileOutputStream /AutoCloseable / BufferedReader / Serializable / ObjectOutputStream / transient (i.e., wo/ serializable) 
+- FileReader 
+- FileWriter 
+- try(FileReader…)-catch: auto-close
+- FileWriter(filePath, false/true) 
+- InputStream 
+- FileOutputStream 
+- AutoCloseable 
+- BufferedReader 
+- Serializable 
+- ObjectOutputStream 
+- transient (i.e., wo/ serializable) 
 
 
 
