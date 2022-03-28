@@ -5,7 +5,7 @@
 - Array / Math.pow
 
 20220107
-- 基本型態長度
+- 基本型態長度 (Primitive Types Length)
 
 20220110
 - Arrays.copyof / System.arraycopy / clone / stack / concat / replace / split / indexof / equals / StringBuilder / StringBuffer
