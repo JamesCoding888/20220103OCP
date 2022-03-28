@@ -2,40 +2,92 @@
 ===========================================================================
 
 20220103
-- Array / Math.pow
+- Array
+- Math.pow
 
 20220107
 - 基本型態長度 (Primitive Types Length)
 
 20220110
-- Arrays.copyof / System.arraycopy / clone / stack / concat / replace / split / indexof / equals / StringBuilder / StringBuffer
+- Arrays.copyof
+- System.arraycopy
+- clone 
+- stack 
+- concat 
+- replace 
+- split 
+- indexof 
+- equals 
+- StringBuilder 
+- StringBuffer
 
 20220114
-- Arrays.stream / Arrays.stream.summaryStatistics / Arrays.stream.forEach / stream.sequential / stream.parallel / map / flatMap / flatMapToInt
+- Arrays.stream 
+- Arrays.stream.summaryStatistics 
+- Arrays.stream.forEach 
+- stream.sequential 
+- stream.parallel 
+- map 
+- flatMap 
+- flatMapToInt
 
 20220117
-- Auto-boxing / Auto-unboxing / Lambda / List / ArrayList / sorted / Collectors / Comparator / mapToInt / POJO / equals and hashcode
+- Auto-boxing 
+- Auto-unboxing 
+- Lambda 
+- List 
+- ArrayList 
+- sorted 
+- Collectors 
+- Comparator 
+- mapToInt 
+- POJO 
+- equals and hashcode
 
 20220121
-- lombok / POJO / is-a / has-a
+- lombok 
+- POJO 
+- is-a
+- has-a
 
 20220124
-- Constructor / this() / super() / Overloading / IntSummaryStatistics / Stream.of / Arrays.stream()  / Optional.of / Optional.ofNullable / 加權
+- Constructor 
+- this() 
+- super() 
+- Overloading 
+- IntSummaryStatistics 
+- Stream.of 
+- Arrays.stream()  
+- Optional.of 
+- Optional.ofNullable 
+- 加權
 
 20220128
-- Polymorphism / instanceof / SingleTon / MultiTon
+- Polymorphism 
+- instanceof 
+- SingleTon 
+- MultiTon
 
 20220207
-- Inner class / Outer class / 
+- Inner class 
+- Outer class 
 
 20220212
-- 設計模式 - decorator / observer / 資料結構 Set List Map
+- 設計模式
+- decorator 
+- observer 
+- 資料結構 Set List Map
 
 20220214
-- TreeSet  / LinkedHashSet / HashSet / Comparator 
+- TreeSet  
+- LinkedHashSet 
+- HashSet
+- Comparator 
 
 20220218
-- LinkedList / Queue / Stack
+- LinkedList 
+- Queue 
+- Stack
 
 20220221
 - map.putIfAbsent
@@ -59,7 +111,8 @@
 - Error
 
 20220228
-- try-catch - finally
+- try-catch 
+- finally
 - jUnit Test
 
 20220304
