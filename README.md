@@ -192,5 +192,20 @@
 - startsWith 
 - endsWith
 
+20220401
+- Ping
+- InputStreamReader
+- OutputStreamWriter
+- getInputStream 
+- getOutputStream 
+- ObjectInputStream 
+- ObjectOutputStream 
+- Socket 
+- writeObject
+- WebServer 
+- ServerSocket 
+- PrintWriter 
+- client.listenForMessage() 
+- client.sendMessage() 
 
 
