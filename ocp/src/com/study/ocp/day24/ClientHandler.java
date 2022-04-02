@@ -6,7 +6,7 @@ package com.study.ocp.day24;
 //4. Close the streams.
 //5. Close the socket.
 
-import java.io.*;
+import java.io.*; 
 import java.net.Socket;
 import java.util.ArrayList;
 

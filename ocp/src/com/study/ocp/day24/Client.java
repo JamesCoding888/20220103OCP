@@ -1,9 +1,8 @@
 //https://www.youtube.com/watch?v=gLfuZrrfKes&t=1610s
 package com.study.ocp.day24;
-import java.io.*;
+import java.io.*; 
 import java.net.Socket;
 import java.util.Scanner;
-
 //A client sends messages to the server, the server spawns a thread to communicate with the client.
 //Each communication with a client is added to an array list so any message sent gets sent to every other client
 //by looping through it.
