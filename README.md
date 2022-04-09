@@ -217,7 +217,7 @@
 - Connection 
 - DriverManager.getConnection 
 - conn.prepareStatement() 
-- xecuteUpdate() 
+- ecuteUpdate() 
 - ResultSet 
 - executeQuery 
 - ResultSetMetaData 
