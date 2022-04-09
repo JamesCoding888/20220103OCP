@@ -208,4 +208,23 @@
 - client.listenForMessage() 
 - client.sendMessage() 
 
+20220408
+- SQLite
+- SQL - insert
+- SQL - select 
+- SQL - update 
+- SQL - delete 
+- Connection 
+- DriverManager.getConnection 
+- conn.prepareStatement() 
+- xecuteUpdate() 
+- ResultSet 
+- executeQuery 
+- ResultSetMetaData 
+- createStatement 
+- Class.forName("org.sqlite.JDBC") 
+- Faker 
+- executeBatch  
+
+
 
